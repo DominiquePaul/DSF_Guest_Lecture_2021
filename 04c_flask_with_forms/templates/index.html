@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>What colour is my banana?</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+  </head>
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#"><img src="{{ url_for('static', filename = 'icon.png' )}}" alt="your image" width=40></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">What colour is my banana? <span class="sr-only">(current)</span></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <br>
+
+    <div class="Overview text container">
+
+      <h1>Yellow or green?</h1>
+
+    </div>
+
+    <div class="Overview text container">
+      <form method="post" enctype="multipart/form-data">
+        {{ form.hidden_tag() }}
+
+        {{ form.user_file.label }} {{ form.user_file() }}
+        <br>
+        {{ form.submit() }}
+
+      </form>
+
+      <br>
+      <br>
+
+      {% if prediction is not none %}
+      <p>Your banana is <b>{{ prediction }}</b> with a probability of {{ score }}%</p>
+      {% endif %}
+    </div>
+
+  </body>
+</html>
