@@ -1,11 +1,13 @@
 import os
+
 from google.cloud import automl
 
 
 # Some specifications
 project_id = "1025551338418"
 model_id = "ICN5998708941750534144"
-file_path = "./images/banana1.jpg"
+
+file_path = "./images/banana3.png"
 
 os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "./gcp_credentials/dscs2020-b20a630b58a2.json"
 
@@ -39,10 +41,10 @@ def classify_image_with_automl(image_as_bytes):
     return(result.display_name, result.classification.score)
 
 
-if __name__ == "__main__":
+# if __name__ == "__main__":
 
-    img = load_image_as_bytes(file_path)
-    prediction, score = classify_image_with_automl(img)
+img = load_image_as_bytes(file_path)
+prediction, score = classify_image_with_automl(img)
 
-    print(prediction)
-    print(score)
+print(prediction)
+print(score)

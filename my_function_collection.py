@@ -9,9 +9,7 @@ def reverse_integer(num):
 
     return int(result)
 
-
 PI = 3.141
-
 
 if __name__ == "__main__":
 

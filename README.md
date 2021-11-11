@@ -9,6 +9,7 @@
 |3|Create your own image classifier|
 |4|Creating websites and APIs with Flask|
 |5|Introduction GCP|
+|6|Links and resources discussed in class|
 
 # 0. Before we start
 
@@ -125,3 +126,38 @@ You can buy domains at for example [namecheap.com](http://namecheap.com), domain
 
 Here is a tutorial for connecting a Namecheap domain to a GCP server:
 [https://www.youtube.com/watch?v=eXtqqofrhOo](https://www.youtube.com/watch?v=eXtqqofrhOo)
+
+# 6. Links and resources discussed in class
+
+Recommended reinforcement learning course: [https://deepmind.com/learning-resources/-introduction-reinforcement-learning-david-silver](https://deepmind.com/learning-resources/-introduction-reinforcement-learning-david-silver)
+
+ChinAI: Newsletter on AI in ChinaAI -[https://chinai.substack.com/](https://chinai.substack.com/)
+
+Linear Algebra review:
+
+- 3Blue1Brown: [https://www.youtube.com/watch?v=kjBOesZCoqc&list=PL0-GT3co4r2y2YErbmuJw2L5tW4Ew2O5B&ab_channel=3Blue1Brown](https://www.youtube.com/watch?v=kjBOesZCoqc&list=PL0-GT3co4r2y2YErbmuJw2L5tW4Ew2O5B&ab_channel=3Blue1Brown)
+- (Schaum) Schaums outline of theory and problems of matrix algebra
+- (Deisenroth) Mathematics for Machine learning
+
+Hackerrank: small coding problems to practice -[https://www.hackerrank.com/challenges/grading/problem](https://www.hackerrank.com/challenges/grading/problem)
+
+Recommended youtube tutorials for python in general
+
+- Sentdex: [https://www.youtube.com/playlist?list=PLQVvvaa0QuDeAams7fkdcwOGBpGdHpXln](https://www.youtube.com/playlist?list=PLQVvvaa0QuDeAams7fkdcwOGBpGdHpXln)
+- Corey Schafer: [https://www.youtube.com/playlist?list=PL-osiE80TeTskrapNbzXhwoFUiLCjGgY7](https://www.youtube.com/playlist?list=PL-osiE80TeTskrapNbzXhwoFUiLCjGgY7)
+
+Recommended youtube tutorials for numpy/pandas :
+
+- Sentdex: [https://www.youtube.com/playlist?list=PLQVvvaa0QuDc-3szzjeP6N6b0aDrrKyL-](https://www.youtube.com/playlist?list=PLQVvvaa0QuDc-3szzjeP6N6b0aDrrKyL-)
+- Corey Schafer: [https://www.youtube.com/playlist?list=PL-osiE80TeTsWmV9i9c58mdDCSskIFdDS](https://www.youtube.com/playlist?list=PL-osiE80TeTsWmV9i9c58mdDCSskIFdDS)
+
+Recommended youtube tutorials for numpy/pandas:
+
+- Sentdex: [https://www.youtube.com/playlist?list=PLQVvvaa0QuDc_owjTbIY4rbgXOFkUYOUB](https://www.youtube.com/playlist?list=PLQVvvaa0QuDc_owjTbIY4rbgXOFkUYOUB)
+- Corey Schafer: [https://www.youtube.com/playlist?list=PL-osiE80TeTs4UjLw5MM6OjgkjFeUxCYH](https://www.youtube.com/playlist?list=PL-osiE80TeTs4UjLw5MM6OjgkjFeUxCYH)
+
+
+# Other
+
+If you questions of any sorts please don't hesitate to contact me via email:
+[dominique.c.a.paul@gmail.com](mailto:dominique.c.a.paul@gmail.com)
